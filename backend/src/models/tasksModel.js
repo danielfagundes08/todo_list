@@ -1,9 +1,6 @@
 const conn = require('./db');
 
 module.exports = {
-    // formatDate : (dateUTC) => {
-    // const options = {         dateStyle: 'long',         timeStyle: 'short' };
-    // const date = new Date(dateUTC).toLocaleString();     return date },
 
     getAll: async () => {
         const query = 'SELECT * FROM tasks'
